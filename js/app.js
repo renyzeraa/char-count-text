@@ -1,3 +1,14 @@
+$('<h1>').text('Contador de Caracteres').appendTo('body')
+$('<form>').append($('<textarea>')).appendTo('body')
+$('<p>')
+  .text('Caracteres')
+  .append($('<span>').addClass('caracteres'))
+  .appendTo('body')
+$('<p>')
+  .text('Palavras')
+  .append($('<span>').addClass('palavras'))
+  .appendTo('body')
+
 $('.caracteres').text(0)
 $('.palavras').text(0)
 

@@ -34,3 +34,7 @@ p > span {
 	color: #84e;
 	font-weight: bold;
 }
+
+textarea {
+	resize: none;
+}
